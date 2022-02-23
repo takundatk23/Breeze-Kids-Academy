@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <!-- styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- material CDN Google-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>  
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/f3d43a148c.js" crossorigin="anonymous"></script>
+
+    <!-- OPEN LAYERS MAPS -->
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.12.0/build/ol.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.12.0/css/ol.css" type="text/css">
+    <title>Breeze Kids Academy</title>
+</head>
+<body onload="dynamicDate()">
+<!-- -----------------------------------------------NAV BAR---------------------------------------------- -->
+
+<header>
+    <nav>
+      
+        <div class="left-side">
+            <a href="#"><img src="images/JustLogo.png" alt=""></a>
+            <h1>Breeze Kids Academy</h1>
+        </div>
+          <div class="right-side">
+            <ul>
+              <li><a href="#about-breeze">About Us</a></li>
+              <li><a href="#staff">Our Staff</a></li>
+              <li><a href="#contact" class="contact">Contact Us</a></li>
+              <li><a href="#find-us">Find Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <a class="menu-toggler"><span class="material-icons-sharp">drag_handle</span></a>
+</header>
+
+<figure class="block-kid">
+  <h1 class="builder">Building Strong Kids</h1>
+</figure>
+
+<main>
+    <section class="shapes-mission">
+      <div class="shapes">
+        <div class="shape square"></div>
+        <div class="shape circle"></div>
+        <div class="shape triangle"></div>
+      </div>
+      <div class="mission-statement">
+        <h1>Your childs early years should be educational but fun</h1>
+        <p>That's why here at Breeze Academy we make sure that your child has quality upbringing
+          skills while in a playful and friendly environment. Breeze is an environment for learning of all children including the ones with special needs. The preschool has highly skilled  professional practitioners who can impart knowledge to the children 
+        </p>
+      </div>
+    </section>
+
+    <section class="about-breeze" id="about-breeze">
+      <h1 class="about-breezeh1">About Breeze Kids Academy</h1>
+        <p>
+          <span class="quote-marks">"</span>
+          Breeze kids academy is an English medium preschool which emphasises in the teaching and learning of English, Mathematics and the Environment as well as Social and well being of children.
+          <span class="quote-marks">"</span> <br>
+          <small class="text-muted">~Maita Usai</small>
+        </p>
+      <figure class="tete-img">
+        <img src="https://scontent-jnb1-1.xx.fbcdn.net/v/t1.18169-9/19510135_1521079771295551_5584106692966559516_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=174925&_nc_ohc=mobb0j0YM8gAX8mhMv6&tn=2ow6ytc6f4cKUQzi&_nc_ht=scontent-jnb1-1.xx&oh=00_AT9rH-WxVUve5tn_MmruPXemxiktqVOImdbX5PxP-UNAWw&oe=6228A4FB" alt="picture of breeze founder, Maita Usai">
+      </figure>
+    </section>
+
+    <section class="meet-section" id="staff">
+      <h1 class="meet-stuffh1">Meet Our Stuff</h1>
+      <figure class="tete-img2">
+        <img src="https://scontent-jnb1-1.xx.fbcdn.net/v/t1.18169-9/19510135_1521079771295551_5584106692966559516_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=174925&_nc_ohc=mobb0j0YM8gAX8mhMv6&tn=2ow6ytc6f4cKUQzi&_nc_ht=scontent-jnb1-1.xx&oh=00_AT9rH-WxVUve5tn_MmruPXemxiktqVOImdbX5PxP-UNAWw&oe=6228A4FB" alt="picture of breeze founder, Maita Usai">
+      </figure>
+      <p>
+        <b>Name: Mam Maita</b> <br>
+        Age: 33 <br> <br>
+        Takes care of children everyday and makes sure they learn manners and respect each other. <br>
+        "Teaching small kids and training them makes me happy because I know they will grow up with a 
+        good mind and find succes in life."
+      </p>
+      <p class="thandi">
+        <b>Name: Mam Thandi</b> <br>
+        Age: 32 <br> <br>
+        Works hard everyday to train the children to read, write and count. <br>
+        "I like to know that kids are safe here at Brezee Academy. They play and have fun which is important 
+        for thier childhod growth and deevelopment. "
+      </p>
+      <figure>
+        <img src="/images/thandi.jpg" alt="picture of breeze teacher mam Thandi">
+      </figure>
+    </section>
+
+    <section class="the-gap"></section>
+
+    <!-- <section class="testimonial-section">
+      <h1>What some parents had to say</h1>
+      <small class="big-qoute">"</small>
+      <div class="carousel">
+        <div class="carousel-inner">
+            <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+            <div class="carousel-item">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates numquam quas voluptas deserunt harum expedita blanditiis minima omnis ipsum nulla! Lorem, ipsum dolor.</p>
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates numquam quas voluptas deserunt harum expedita.</p>
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates numquam quas voluptas deserunt harum expedita blanditiis minima omnis ipsum nulla! </p>
+            </div>
+            <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+            <label for="carousel-2" class="carousel-control next control-1">›</label>
+            <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+            <label for="carousel-3" class="carousel-control next control-2">›</label>
+            <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+            <label for="carousel-1" class="carousel-control next control-3">›</label>
+            <ol class="carousel-indicators">
+                <li>
+                    <label for="carousel-1" class="carousel-bullet">•</label>
+                </li>
+                <li>
+                    <label for="carousel-2" class="carousel-bullet">•</label>
+                </li>
+                <li>
+                    <label for="carousel-3" class="carousel-bullet">•</label>
+                </li>
+            </ol>
+        </div>
+    </div>
+    </section -->
+
+    <section class="get-in-touch" id="contact">
+      <h1>Get in touch</h1>
+      <form class="info-capture" action="https://formspree.io/f/mrgjqazn" method="post">
+        <label for="">Name:</label>
+        <input type="text" name="Fullname" placeholder="Full Name" required>
+        <label for="">Email:</label>
+        <input type="email" name="Email" placeholder="Your Email" required>
+        <label for="">Leave a message:</label>
+        <textarea placeholder="Leave message here" name="Message" rows="4" cols="50" required></textarea>
+      <button type="submit">Send  &nbsp; <i class="fa-solid fa-paper-plane"></i> </button>  
+      </form>
+      <div class="contact-info">
+        <h2>Contact Info</h2>
+        <p>Cell Number: +27 74 429 4894<br>
+        Email: 	breezekidsacademy2016@gmail.com<br>
+        Address: 2328 Mkhonto Groove burbreeze<br>
+        </p>
+      </div>
+    </section>
+
+    <section class="map-section" id="find-us">
+      <div id="map" class="map"></div>
+      <div id="popup" class="ol-popup">
+        <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+        <div id="popup-content"></div>
+    </div>
+    </section>
+
+</main>
+
+<footer>
+    <div class="footer">
+      <div class="logos">
+        <a href="#"><img src="images/JustLogo.png" alt=""></a>
+        <img src="images/doe.png" alt="departmet of education logo">
+      </div>
+      <div id="foot-copyright"></div>
+    </div>
+</footer>
+
+ <script src="javascript/index.js"></script> <!-- main --> 
+ <!-- google api js -->
+ <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-UhlCl4CRfqcAA747qnHMjtkcaEme7HM&callback=initMap"></script>
+</body>
+</html>
+<!-- {lat: -29.53840871016268, lng: 31.146171225590884}; -->
