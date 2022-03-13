@@ -831,6 +831,10 @@ textarea{
         row-gap: 2rem;
     }
 
+    .info-capture{
+        padding: 0 1rem;
+    }
+
     .get-in-touch .contact-info{
         grid-column: 1/3;
     }
